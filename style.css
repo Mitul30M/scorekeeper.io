@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+   /* background-image: url(https://i.pinimg.com/originals/80/eb/15/80eb15b74b0e953de799f32cb26a8c61.gif);
+    */
+    font-family: sans-serif;
+
+}
+/*
+    player 1 : success;
+    player 2 : danger;
+*/
+.imgCont{
+    position: relative;
+    
+}
+
+.imgOverlay{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 35%;
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 600
+}
+select{
+    max-width: 17%;
+}
+
+.info{
+    margin: auto;
+    width: fit-content;
+    margin-top: 1rem;;
+    padding-left: 21rem;
+}
+
+select:focus{
+    border: none;
+}
